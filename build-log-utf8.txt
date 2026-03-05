@@ -1,0 +1,15 @@
+
+> hargrove-law@1.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 13 modules transformed.
+[31m✗[39m Build failed in 117ms
+[31merror during build:
+[31mCould not resolve "../css/global.css" from "src/main.js"[31m
+file: [36mD:/Edited Videos/hargrove-law/src/main.js[31m
+    at getRollupError (file:///D:/Edited%20Videos/hargrove-law/node_modules/rollup/dist/es/shared/parseAst.js:402:41)
+    at error (file:///D:/Edited%20Videos/hargrove-law/node_modules/rollup/dist/es/shared/parseAst.js:398:42)
+    at ModuleLoader.handleInvalidResolvedId (file:///D:/Edited%20Videos/hargrove-law/node_modules/rollup/dist/es/shared/node-entry.js:21710:24)
+    at file:///D:/Edited%20Videos/hargrove-law/node_modules/rollup/dist/es/shared/node-entry.js:21670:26[39m

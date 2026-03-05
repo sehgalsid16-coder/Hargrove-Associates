@@ -1,0 +1,23 @@
+/* src/css/variables.css */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Charter:wght@400;700&family=Raleway:wght@400;600&display=swap');
+
+:root {
+  /* Colors */
+  --color-primary: #1A1A1A; /* Charcoal Black */
+  --color-accent: #C5A028; /* Antique Brass/Gold */
+  --color-bg-light: #F5F0E8; /* Off-White (Parchment) */
+  --color-secondary-dark: #2C1810; /* Deep Mahogany */
+  --color-text-body: #555555; /* Mid Gray */
+  --color-text-meta: #888888; /* Light Gray */
+  --color-white: #FFFFFF;
+  
+  /* Typography */
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body: 'Charter', 'Source Serif 4', Georgia, serif;
+  --font-ui: 'Raleway', 'Montserrat', sans-serif;
+  
+  /* Layout Options */
+  --container-max-width: 1200px;
+  --header-height: 80px;
+  --transition-speed: 0.4s;
+}

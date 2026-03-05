@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Hargrove & Associates | Book a Legal Consultation | Los Angeles</title>
+    <meta name="description"
+        content="Schedule a confidential legal consultation with Hargrove & Associates, a boutique litigation firm in Los Angeles. We handle civil, corporate, divorce, and estate matters for high-net-worth clients." />
+    <style>
+        /* Contact Specific Styles */
+        .form-group {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            font-family: var(--font-ui);
+            font-size: 14px;
+            color: var(--color-white);
+            margin-bottom: 8px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: var(--color-white);
+            font-family: var(--font-body);
+            font-size: 16px;
+            transition: border-color var(--transition-speed);
+            border-radius: 4px;
+            /* Slight radius on inputs for accessibility norms */
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--color-accent);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .btn-submit {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        /* Contact Info grid */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: start;
+        }
+
+        .contact-info {
+            background-color: var(--color-bg-light);
+            padding: 50px;
+            color: var(--color-primary);
+        }
+
+        .contact-info h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--color-accent);
+        }
+
+        .contact-info-item {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .contact-info-item a {
+            color: var(--color-primary);
+            text-decoration: underline;
+        }
+
+        .contact-info-item a:hover {
+            color: var(--color-secondary-dark);
+        }
+
+        @media (max-width: 800px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+  <script type="module" crossorigin src="/assets/main-B8Uc-Cdo.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-BRggYsrF.css">
+</head>
+
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <main>
+        <section class="page-hero section-dark text-center" style="padding-top: 150px; padding-bottom: 60px;">
+            <div class="container fade-in">
+                <h1>Confidential Consultations, By Appointment.</h1>
+                <p class="hero-sub">
+                    Your first consultation with Hargrove & Associates is handled by a senior attorney. Not intake
+                    staff. Not a paralegal. We listen to the specifics of your situation and give you an honest,
+                    experienced assessment &mdash; in confidence.
+                </p>
+            </div>
+        </section>
+
+        <section class="section pt-0 section-dark">
+            <div class="container fade-in">
+                <div class="contact-grid">
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper"
+                        style="background-color: rgba(255,255,255,0.03); padding: 50px; border-top: 3px solid var(--color-accent);">
+                        <form id="consultation-form">
+                            <div class="form-group">
+                                <label for="fullName">Full Name *</label>
+                                <input type="text" id="fullName" class="form-control" required aria-label="Full Name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" class="form-control" required aria-label="Phone Number" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" class="form-control" required
+                                    aria-label="Email Address" />
+                            </div>
+                            <div class="form-group">
+                                <label for="practiceArea">Practice Area *</label>
+                                <select id="practiceArea" class="form-control" required aria-label="Practice Area">
+                                    <option value="" disabled selected>Select an area</option>
+                                    <option value="civil">Civil Litigation</option>
+                                    <option value="corporate">Corporate Dispute</option>
+                                    <option value="divorce">Divorce & Family Law</option>
+                                    <option value="estate">Estate & Will Litigation</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Briefly describe your matter (Optional)</label>
+                                <textarea id="message" class="form-control" maxlength="300"
+                                    aria-label="Brief description"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">SUBMIT &amp; REQUEST CONSULTATION
+                                &rarr;</button>
+                            <div
+                                style="margin-top: 15px; font-size: 11px; color: var(--color-text-meta); font-family: var(--font-ui);">
+                                All submissions are held in strict confidence under attorney-client privilege. We
+                                respond within one business day.
+                            </div>
+                            <div id="form-success"
+                                style="display: none; margin-top: 20px; padding: 20px; background: rgba(197, 160, 40, 0.1); border-left: 3px solid var(--color-accent); color: var(--color-white);">
+                                <h4 style="color: var(--color-accent); margin-bottom: 5px;">Your submission has been
+                                    received.</h4>
+                                <p style="font-size: 13px; margin: 0; opacity: 0.9;">A member of our team will be in
+                                    contact within one business day to confirm your consultation appointment. If your
+                                    matter is time-sensitive, please call us directly at (213) 555-0100. Thank you for
+                                    trusting Hargrove & Associates.</p>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Direct Contact -->
+                    <div class="contact-info">
+                        <h3>Direct Contact</h3>
+                        <div class="contact-info-item">
+                            <strong>Phone</strong><br>
+                            <a href="tel:2135550100">T: (213) 555-0100</a><br>
+                            <span style="font-size: 0.9rem; color: var(--color-text-meta);">Available Mon&ndash;Fri,
+                                8:00 AM &ndash; 6:00 PM PT</span>
+                        </div>
+                        <div class="contact-info-item">
+                            <strong>Email</strong><br>
+                            <a href="mailto:consultations@hargrovellp.com">&#9993; consultations@hargrovellp.com</a><br>
+                            <span style="font-size: 0.9rem; color: var(--color-text-meta);">(monitored daily)</span>
+                        </div>
+                        <div class="contact-info-item">
+                            <strong>Office</strong><br>
+                            &#128205; One California Plaza<br>
+                            300 S. Grand Avenue, Suite 2900<br>
+                            Los Angeles, CA 90071
+                        </div>
+                        <div class="contact-info-item">
+                            <strong>Video Consultations</strong><br>
+                            &#128187; Secure video consultations available for clients outside Los Angeles
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('consultation-form');
+            const successMsg = document.getElementById('form-success');
+            if (form) {
+                form.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    const btn = form.querySelector('button[type="submit"]');
+                    btn.style.display = 'none';
+                    successMsg.style.display = 'block';
+                    form.reset();
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
